@@ -1,0 +1,29 @@
+apiVersion: v1
+clusters:
+- cluster:
+    insecure-skip-tls-verify: true
+    server: https://174.37.17.188:8443
+  name: optumera
+contexts:
+- context:
+    cluster: optumera
+    namespace: coe
+    user: bpatel
+  name: optumera-context
+current-context: optumera-context
+kind: Config
+preferences: {}
+users:
+- name: bpatel
+  user:
+    token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdF9oYXNoIjoiMWYxNmY5YjY2ODky
+NmU2YzU3MmEzZTMwZWJmYTQ1MmM2MTNmM2U1NiIsInJlYWxtTmFtZSI6ImN1c3RvbVJlYWxtIiwidW5p
+cXVlU2VjdXJpdHlOYW1lIjoiYnBhdGVsIiwiaXNzIjoiaHR0cHM6Ly9vcHR1bWVyYS5pY3A6OTQ0My9v
+aWRjL2VuZHBvaW50L09QIiwiYXVkIjoiNjE5MTE0OGIxNmQ3YTViNTE0Yzc0MjBhNjRhNjZmZDUiLCJl
+eHAiOjE1NjU5ODIxMTksImlhdCI6MTU2NTk1MzMxOSwic3ViIjoiYnBhdGVsIiwidGVhbVJvbGVNYXBw
+aW5ncyI6WyJpY3A6Y29lOmFkbWluIiwiaWNwOmRlZmF1bHQ6bWVtYmVyIiwiaWNwOmRlZmF1bHQ6dGVh
+bWFkbWluIl19.SAwvxbDhrzGxrXtoFunGk__YWnigtAuZ1VG50vn-4_v6IAj5RsP8doH0hRaXf3afH82
+pitDrADigi65faAT083U2rPvW7i8dsNzxR49XrdvXMg2Afp0uczRwazUDIRDTk5cZ2pHOx3OXBu_hQ5W
+7mWYo7KcF2l8GKkRSMGQaLFIevbUuYOX-4fjBKfNFRc1f-dSb211gG3S8IfIMmzSBuBKoWMIMEgwJvHq
+F9Ji1JouH0cie3Dt8kY1-zaUqYkufC8AOLlA8Do4-LSJ7vvUS5GtFT7w8kJj3RaLXGAYqd0sGQ-EnNaM
+iGTS60uvNt-V9DG5BjmisWqLnzP8mbiF3dg
